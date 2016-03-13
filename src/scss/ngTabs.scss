@@ -1,0 +1,31 @@
+$primary: #008CDD;
+$border-color: #EAEAEA;
+$dark-gray: #555;
+
+.tab-nav-wrapper{
+    border-bottom: 1px solid $border-color;
+    ul.tab-nav{
+        margin: 0;
+        margin-bottom: 8px;
+        li{
+            display: inline-block;
+            margin-right: 20px;
+            a{
+                color: $dark-gray;
+                font-size: 14px;  
+                font-weight: 600;
+                padding-bottom: 8px;
+                text-decoration: none;
+                cursor: pointer;
+                &:hover, &.active{
+                    color: $primary;
+                    border-bottom: 1px solid $primary;
+                }
+            }
+        }
+    }
+}
+
+.tab-panel{
+    display: none;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>ngTabs | An angular Directive for creating tabs</title>
+	<meta name="description" content="An angular Directive for creating tabs">
+	<meta name="keywords" content="angular, directive, tabs, angular tabs, angular-tabs, ng tabs, tabs, tabs in angular">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="dist/css/ngTabs.css">
+	<link rel="stylesheet" href="dist/css/demo.css"> 
+</head>
+<body ng-controller="masterController">
+	<header>
+		<h1>ngTabs <br><small>An Angular Directive for creating tabs.</small></h1>
+	</header>
+	<div class="multiselect-demo-container">
+		<div class="demo-container">
+			<div class="tabs-navigation tab-nav-wrapper"> 
+				<ul class="tab-nav" tab-nav data-tab-group="tabs-demo">
+				      <li><a class="active"  data-target-tab="tab-1">Tab#1</a></li>
+				      <li><a data-target-tab="tab-2">Tab#2</a></li>
+				      <li><a data-target-tab="tab-3">Tab#3</a></li>
+				</ul>
+			</div>
+			<div class="tabs-panels">
+				<div class="tab-panel tab-content" data-tab-group="tabs-demo" data-tab-name="tab-1">
+					<h6>Tab#1</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu purus vel mauris pharetra venenatis id sed tortor. Aliquam fringilla augue ante, in efficitur tellus egestas id. Curabitur a tortor commodo, placerat nunc vel, consequat est. Aenean ornare sem facilisis massa cursus condimentum. Suspendisse fermentum tincidunt suscipit. Vivamus sit amet eros semper, posuere nisi vel, elementum massa. Integer sit amet aliquam diam. Quisque venenatis quam vel neque dictum molestie. Maecenas ut dictum mi.</p>
+				</div>
+				<div class="tab-panel tab-content" data-tab-group="tabs-demo" data-tab-name="tab-2">
+					<h6>Tab#2</h6>
+					<p>Aenean et libero sed mauris rutrum aliquet. Cras sagittis sem vel dolor posuere, ac gravida sem imperdiet. Aliquam erat volutpat. Quisque lobortis, est eget tincidunt pulvinar, leo dui aliquam elit, non bibendum nisl ante in massa. Maecenas arcu ligula, imperdiet non nulla sed, volutpat condimentum nisi. Fusce mollis, purus quis laoreet aliquam, ligula dolor commodo nisl, ut tincidunt dui mauris ac mi.</p>
+				</div>
+				<div class="tab-panel tab-content" data-tab-group="tabs-demo" data-tab-name="tab-3">
+					<h6>Tab#3</h6>
+					<p>Vestibulum sollicitudin tortor ipsum. Pellentesque at tortor iaculis, placerat augue viverra, finibus nunc. Donec ut eros id arcu ornare placerat in et augue. Fusce mi libero, eleifend nec pulvinar nec, pretium at metus. Morbi hendrerit faucibus dui, nec sollicitudin arcu sollicitudin ac. Proin cursus commodo velit, eget consectetur felis dignissim id. Pellentesque eleifend, justo sed rutrum malesuada, arcu mi condimentum ligula, non suscipit massa justo eu libero. Quisque eu mauris augue. Fusce consequat sem ante, pellentesque viverra justo rutrum quis.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="flash-message">
+		{{message}}
+	</div> -->
+	<footer>
+		<a href="https://github.com/FauzanKhan/angular-tabs" target="_blank">
+			<img src="http://cdn.flaticon.com/png/256/25231.png" alt=""></--> Fork on GitHub
+		</a>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0-rc.2/angular.min.js"></script>
+	<script src="dist/js/app.min.js"></script>
+	<script src="dist/js/ngTabs.min.js"></script>
+</body>
+</html>

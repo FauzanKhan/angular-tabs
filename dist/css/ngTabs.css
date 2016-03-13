@@ -1,0 +1,21 @@
+.tab-nav-wrapper {
+  border-bottom: 1px solid #EAEAEA; }
+  .tab-nav-wrapper ul.tab-nav {
+    margin: 0;
+    margin-bottom: 8px; }
+    .tab-nav-wrapper ul.tab-nav li {
+      display: inline-block;
+      margin-right: 20px; }
+      .tab-nav-wrapper ul.tab-nav li a {
+        color: #555;
+        font-size: 14px;
+        font-weight: 600;
+        padding-bottom: 8px;
+        text-decoration: none;
+        cursor: pointer; }
+        .tab-nav-wrapper ul.tab-nav li a:hover, .tab-nav-wrapper ul.tab-nav li a.active {
+          color: #008CDD;
+          border-bottom: 1px solid #008CDD; }
+
+.tab-panel {
+  display: none; }
