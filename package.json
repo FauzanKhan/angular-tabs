@@ -33,5 +33,10 @@
   "bugs": {
     "url": "https://github.com/FauzanKhan/angular-popover/issues"
   },
-  "homepage": "https://github.com/FauzanKhan/angular-popover#readme"
+  "homepage": "https://github.com/FauzanKhan/angular-popover#readme",
+  "release": {
+    "verifyConditions": {
+      "path": "./releaseCondition.js"
+    }
+  }
 }
