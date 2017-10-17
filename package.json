@@ -1,7 +1,7 @@
 {
-  "name": "fzn-angular-popover",
-  "version": "1.0.0",
-  "description": "An easy to customize popover written in angular",
+  "name": "@fauzankhan/angular-tabs",
+  "version": "2.0.0",
+  "description": "An easy to customize tabs component written in angular",
   "main": "index.html",
   "dependencies": {},
   "devDependencies": {
@@ -27,7 +27,7 @@
     "tranclude"
   ],
   "author": "FauzanKhan",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/FauzanKhan/angular-popover/issues"
   },
